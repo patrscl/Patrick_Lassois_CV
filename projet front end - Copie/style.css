@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 0.7rem;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    color: #fff;
+
+
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: aliceblue;
+  box-shadow: 4px 6px 25px #224;
+  margin-top: 30px;
+}
+
+
+
+
+
+/*HEADER*/
+header #titre { 
+	padding:1.5em; 
+  background-image: url(img/fond2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  color:#37403d;
+  
+
+}
+header #titre h1 {
+	font-size:2rem;
+}
+
+header img{
+    width: 12px;
+
+
+}
+
+div #texte{
+  margin:10px;
+}
+
+.infos{
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  a{
+    text-decoration: none;
+    color:#37403d;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+
+
+
+
+section{
+    padding: 10px;
+    color: black;
+}
+
+
+
+div #img img{
+      width: 80px;
+      border-radius: 100px;
+      padding: 10px;
+}
+
+
+
+/*MAIN*/
+.container{
+  display:flex;
+  Justify-content: space-between;
+}
+section .col1{
+ width:70%;
+}
+section .col2{
+  width:30%;
+}
+
+
+div #etudes{
+  text-align: center;
+}
+
+#heh {
+  display: none;
+}
+
+#ices {
+  display: none;
+}
+
+
+
+
+
+#Spécialité li{
+  margin-left: 12px;
+}
+#interet li{
+  margin-left: 12px;
+}
+#compétences li{
+  margin-left: 12px;
+}
+
+#Langues p{
+  margin : 7px;
+}
+
+#interet li{
+  font-size: 0rem;
+}
+
+#compétences li{
+  font-size: 0rem;
+}
+
+
+/*BARRE DE PROGRESSION*/
+#Progress_Status {
+  width: 60%;
+  text-align: center;
+}
+#Progress_Status2 {
+  width: 60%;
+  text-align: center;
+}
+#Progress_Status3 {
+  width: 60%;
+  text-align: center;
+}
+#Progress_Status4 {
+  width: 60%;
+  text-align: center;
+}
+
+#progressBar {
+  width: 1%;
+  height: 20px;
+  background-color: #C0C0C0;
+  border-radius: 5px ;
+  
+}
+
+#progressBar2 {
+  width: 1%;
+  height: 20px;
+  background-color: #C0C0C0;
+  border-radius: 5px ;
+
+}
+
+#progressBar3 {
+  width: 1%;
+  height: 20px;
+  background-color: #C0C0C0;
+  border-radius: 5px ;
+
+}
+
+#progressBar4 {
+  width: 1%;
+  height: 20px;
+  background-color: #C0C0C0;
+  border-radius: 5px ;
+
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width:1200px) {
+  body{
+    width: 800px;
+}
+
+}
+
+
+@media screen and (max-width:950px) {
+  body{
+    width: 600px;
+    font-size: 1rem;
+}
+#progressBar {
+  font-size : 0.9rem;
+  
+}
+
+#progressBar2 {
+  font-size : 0.9rem;
+
+}
+
+#progressBar3 {
+  font-size : 0.9rem;
+
+}
+
+#progressBar4 {
+  font-size : 0.9rem;
+}
+
+
+}
+
+@media screen and (max-width:700px) {
+  body{
+    width: 100%;
+    margin-top: 0px;
+    box-shadow: none;
+}
+
+
+}
+
+@media screen and (max-width:600px) {
+  section .col1{
+    width:95%;
+   }
+   section .col2{
+    width: 95%;
+   }
+   .container{
+    display:block;
+    text-align: center;
+}
+    body{
+      font-size: 1rem;
+    }
+
+    div#Langues p{
+      text-align: start;
+    }
+
+    header #titre h1 {
+      font-size:1.2rem;
+    }
+
+    header #titre h1 {
+      font-size:1.8rem;
+    }
+    header .infos {
+      font-size:1rem;
+    }
+
+    #Progress_Status {
+      width: 100%;
+    }
+    #Progress_Status2 {
+      width: 100%;
+    }
+    #Progress_Status3 {
+      width: 100%;
+    }
+    #Progress_Status4 {
+      width: 100%;
+    }
+
+    #interet {
+      text-align: start;
+    }
+    #interet h2 {
+      text-align: center;
+    }
+
+    #compétences {
+      text-align: start;
+    }
+    #compétences h2 {
+      text-align: center;
+    }
+
+
+
+    #Spécialité {
+      text-align: start;
+    }
+    #Spécialité h2 {
+      text-align: center;
+    }
+
+    #Spécialité li{
+      margin-left: 110px;
+    }
+    #interet li{
+      margin-left: 110px;
+    }
+    #compétences li{
+      margin-left: 110px;
+    }
+
+}
+
+
+@media print {
+  body{
+    font-size: 1.5rem;
+  }
+
+  #progressBar {
+    width: 100%;
+    
+  }
+  
+  #progressBar2 {
+    width: 50%;  
+  }
+  
+  #progressBar3 {
+    width: 25%;
+  
+  }
+
+  #progressBar4 {
+    width: 25%;
+  }
+  
+  header #titre { 
+    color:black;
+  }
+}
+
+
+
+
+
+
